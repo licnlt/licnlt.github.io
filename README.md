@@ -1,2 +1,0 @@
-# licnlt.github.io
-myblog
