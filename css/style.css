@@ -1,0 +1,285 @@
+@charset "utf-8";
+body{
+	color:#fff;
+	font-family: "Microsoft YaHei","Times New Roman",Georgia,Serif;
+}
+.section{
+	background-image: url(../image/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+header{
+	width: 100%;
+	height: 40px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: rgba(53,53,53,0.3);
+	-webkit-filter:blur(2px);
+}
+
+/*导航栏*/
+.oNav{
+	width: 100%;
+	height: 40px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 999px;
+}
+.ICO {
+	display: inline-block;
+	position: absolute;
+	background-image: url(../image/tubiao.png);
+	background-size: 34px 34px;
+	border-radius:17px;
+	width:34px;
+	height:34px;
+	top: 5px;
+	left: 100px;
+}
+.ICO:hover{
+	box-shadow: 1px 2px 2px 2px #595959;
+	cursor: pointer;
+}
+.headLine{
+	font-size: 12px;
+	line-height: 40px;
+	margin-left: 200px;
+}
+.headLine:hover{
+	color:yellow;
+	cursor: pointer;
+}
+#fullpageMenu{
+	font-size: 14px;
+	position:absolute;
+	top: 0;
+	left: 400px;
+	line-height: 38px;
+	margin-left: 90px;
+}
+#fullpageMenu>li{
+	float: left;
+}
+#fullpageMenu>li>a{
+	display: inline-block;
+	padding: 0 5px 0 5px;
+}
+#fullpageMenu>li+li:before{
+	content:"/";
+	padding: 0 30px;
+}
+/*导航栏 END*/
+
+/*第一屏*/
+.section_1{
+	width: 450px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 300px;
+}
+.myPhoto{
+	display: block;
+	background: url(../image/myphoto.jpg) 3px -10px;
+	background-size:110px 150px;
+	width: 120px;
+	height: 120px;
+	margin:0 auto;
+	border-radius: 60px;
+}
+.section_1 p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000;
+}
+.Text{
+	margin-top: 10px;
+	font-size: 10px;
+}
+.my_name{
+	margin-top: 20px;
+}
+/*第一屏 END*/
+
+/*第二屏 */
+.section_2{
+	width: 900px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.aboutMe_1{
+	text-align: center;
+	font-size: 20px;
+	text-decoration: underline;
+	color:#FFE400;
+}
+.aboutMe_2{
+	text-align: center;
+	font-size: 12px;
+	color:#FFE400;
+	margin-bottom: 30px;
+}
+.conTent{
+	width: 600px;
+	height: 180px;
+	background: rgba(0, 71, 153,0.4);
+	margin:0 auto;
+	border-radius: 10px;
+}
+.con_ico{
+	display: inline-block;
+	width: 60px;
+	height: 70px;
+	float: left;
+	margin-left: 70px;
+	margin-top: 30px;
+	text-align: center;
+	color: #FFE400;
+}
+.con_ico img{
+	width: 60px;
+	height: 70px;
+}
+.conText{
+	width: 700px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 38px;
+	text-align: center;
+	position: relative;
+}
+.conText:before{
+	content:" ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 70px;
+	border-top: 1px solid yellow;
+	border-left: 1px solid yellow;
+}
+.conText:after{
+	content:" ";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 50px;
+	height: 70px;
+	border-bottom: 1px solid yellow;
+	border-right: 1px solid yellow;
+}
+/*第二屏 END*/
+
+/*第三屏*/
+.section_3{
+	width: 900px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.section_3>div{
+	width: 50%;
+	height: 40%;
+	float: left;
+	position: relative;
+}
+.section_3 img{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	border-radius: 60px;
+	margin-top: 40px;
+	margin-left: 40px;
+	cursor:pointer;
+}
+.section_3 img:hover{
+	box-shadow:2px 3px 3px #1a1a1a;
+}
+.section_3 ul{
+	display: inline-block;
+	list-style-type:circle;
+	position: absolute;
+	top: 30px;
+	left: 150px;
+	color: #000;
+	background-color:rgba(179, 179, 179,0.3);
+	padding: 5px 30px 5px 30px;
+}
+.section_3 ul li{
+	line-height: 30px;
+}
+/*第三屏END*/
+
+/*第四屏*/
+.section_4{
+	width: 900px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.Exp{
+	width: 600px;
+	height: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+.Exp li{
+	line-height: 50px;
+	background: -webkit-linear-gradient(left top, #99b0ff, #0000cc);
+	background: -o-linear-gradient(bottom right, #99b0ff, #0000cc); 
+	background: -moz-linear-gradient(bottom right,#99b0ff , #0000cc); 
+	background: linear-gradient(to bottom right,#99b0ff , #0000cc); 
+	cursor: pointer;
+	border-radius: 2px;
+}
+.Exp li p{
+	background-color:#f2f2f2;
+	color: #000;
+}
+.Exp span{
+	display: inline-block;
+	background-image: url(../image/arrow.png);
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+.xuan{
+	transform-origin:50% 50%;
+	transform:rotate(90deg);
+}
+/*第四屏 END*/
+
+/*第五屏*/
+.section_5{
+	width: 900px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+.section_5 p span{
+	font-weight: bold;
+	font-size: 30px;
+}
+.conTact_1{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	color: blue;
+	margin-top: 40px;
+}
+.conTact_2{
+	font-size: 12px;
+	line-height: 25px;
+	color: #000;
+	margin-top: 40px
+}
+/*第五屏 END*/
