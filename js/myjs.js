@@ -38,21 +38,29 @@ function section2(){
 };
 //第三屏动画
 function section3(){
-	$(".section_3 img").animate({width:"90px",height:"90px"},1000,function(){
-		$(".section_3 ul").slideDown(1000);
-	});
-	$(".section_3").find("img").on("click",function(){
-		$(this).next("ul").slideToggle(300);
-	})
+	if ($(".section_3 img").width()!="90") {
+		$(".section_3 img").animate({width:"90px",height:"90px"},500,function(){
+			$(".section_3 ul").slideDown(300);
+		});
+	}else{
+		return false;
+	}	
 };
 // 第四屏动画
 function section4(){
-	$(".Exp>li").not(".myP").on("click",function(event){
+
+};
+
+//交互动画
+$(".section_3 img").on("click",function(){
+	$(this).next("ul").slideToggle(300);
+});
+
+$(".Exp>li").not(".myP").on("click",function(event){
 		var index=$(this).index();	
 		$(".Exp>li>p").on("click",function(event){
 		  	return false;
 		});
 		$(".Exp>li>p").eq(index).slideToggle(300);
 		$(".Exp>li>span").eq(index).toggleClass("xuan");
-	});
-};
+});
