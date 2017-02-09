@@ -108,7 +108,7 @@ header{
 	width: 900px;
 	height: 450px;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 10px;
 }
 .aboutMe_1{
 	text-align: center;
@@ -120,7 +120,7 @@ header{
 	text-align: center;
 	font-size: 12px;
 	color:#FFE400;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 .conTent{
 	width: 600px;
@@ -131,7 +131,7 @@ header{
 }
 .con_ico{
 	display: inline-block;
-	width: 60px;
+	width: 100px;
 	height: 70px;
 	float: left;
 	margin-left: 70px;
@@ -152,6 +152,7 @@ header{
 	line-height: 38px;
 	text-align: center;
 	position: relative;
+	color: #000000;
 }
 .conText:before{
 	content:" ";
@@ -180,7 +181,7 @@ header{
 	width: 900px;
 	height: 450px;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 10px;
 }
 .section_3>div{
 	width: 50%;
@@ -220,7 +221,7 @@ header{
 	width: 900px;
 	height: 450px;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 10px;
 }
 .Exp{
 	width: 600px;
@@ -253,7 +254,7 @@ header{
 }
 .xuan{
 	transform-origin:50% 50%;
-	transform:rotate(90deg);
+	transform:rotate(-90deg);
 }
 /*第四屏 END*/
 
@@ -262,7 +263,7 @@ header{
 	width: 900px;
 	height: 450px;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 10px;
 	text-align: center;
 }
 .section_5 p span{
@@ -274,12 +275,13 @@ header{
 	font-weight: bold;
 	line-height: 30px;
 	color: blue;
-	margin-top: 40px;
+	margin-top: 10px;
 }
-.conTact_2{
-	font-size: 12px;
-	line-height: 25px;
-	color: #000;
-	margin-top: 40px
+
+.addr_map{
+	width: 800px;
+	height: 300px;
+	border:1px solid #adadad;
+	margin: 0 auto;
 }
 /*第五屏 END*/
