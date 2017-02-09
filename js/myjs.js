@@ -1,7 +1,7 @@
 $(".headLine").hover(function(){
 	$(this).text("Web Developer /  Resume");
 },function(){
-	$(this).text("前端工程师  /  个人简历");
+	$(this).text("IT工程师  /  个人简历");
 });
 
 
