@@ -26,7 +26,7 @@ function section1(){
 // 第二屏动画
 function section2(){
 	$('.conTent').show(function(){
-		$('.conTent').animate({width:"600px",height:"180px"},1000,function(){
+		$('.conTent').animate({width:"750px",height:"180px"},1000,function(){
 			move('.conTent .Img1').rotate(360).end();
 			move('.conTent .Img2').rotate(360).end();
 			move('.conTent .Img3').rotate(360).end();
